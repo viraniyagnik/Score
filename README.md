@@ -15,6 +15,9 @@ Initially appeared on
 Lab 2.1 YAGNIK_Score Layout updated commit
 [Lab2.1](https://github.com/viraniyagnik/YAGNIK_Score/commit/0ab744559059d2ae1f39acc1e9dd191f4b324033)
 
+Lab 3 — Score Keeper commit
+[Lab3](https://github.com/viraniyagnik/YAGNIK_Score/blob/main/app/src/main/java/com/example/yagnik_score/MainActivity.java)
+
 
 
 ### Prerequisites
