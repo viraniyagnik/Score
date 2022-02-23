@@ -24,11 +24,11 @@
 
     <TextView
         android:id="@+id/Canada_score"
-        android:layout_width="16dp"
-        android:layout_height="35dp"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="88dp"
-        android:text="8"
+        android:text="0"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -81,11 +81,11 @@
 
     <TextView
         android:id="@+id/India_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="88dp"
-        android:text="8"
+        android:text="0"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -122,72 +122,86 @@
         app:layout_constraintTop_toBottomOf="@+id/India_buttonUp" />
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="44dp"
-        android:background="#00E5FF"
+        android:id="@+id/linearLayoutCanada"
+        android:layout_width="393dp"
+        android:layout_height="99dp"
+        android:background="@color/white"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Score_textView">
 
         <RadioGroup
             android:id="@+id/radio_group"
-            android:layout_width="wrap_content"
+            android:layout_width="369dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
-                android:layout_width="90dp"
+
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="74dp"
                 android:layout_height="wrap_content"
                 android:text="2"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
+            <RadioButton
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
         </RadioGroup>
 
-        <RadioButton
-            android:layout_width="74dp"
-            android:layout_height="wrap_content"
-            android:text="3"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:textStyle="bold" />
 
-        <RadioButton
-            android:layout_width="79dp"
-            android:layout_height="wrap_content"
-            android:text="4"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:textStyle="bold" />
 
-        <RadioButton
 
-            android:layout_width="79dp"
-            android:layout_height="wrap_content"
-            android:text="6"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            android:textStyle="bold" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/Score_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="308dp"
-        android:background="#00E5FF"
-        android:text="Score ↑ by: "
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:text=" Score ↑ ↓ by: "
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/India_buttonDown" />
+
 
 </android.support.constraint.ConstraintLayout>
