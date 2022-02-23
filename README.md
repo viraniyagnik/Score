@@ -30,7 +30,7 @@ Download and installed Android Studio. Create new Android studio Project. Name Y
 
 ## Running the tests
 YAGNIK_Score Layout Android studio output as a test result
-![image](https://user-images.githubusercontent.com/77527826/154540960-b4b28258-9b62-496b-ae89-ae10609d5f9d.png)
+![image](https://user-images.githubusercontent.com/77527826/155259477-ae8f8f60-b4c7-4c91-8dd4-bb261e745f2d.png))
 
 
 
